@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "prebuild":"npm run lint",
+    "prebuild": "npm run lint",
     "lint": "eslint src/**/*.ts --fix",
     "build": "npx tsc",
     "watch": "tsc -w",
@@ -27,6 +27,8 @@
   "dependencies": {
     "concurrently": "^8.2.2",
     "dotenv": "^16.4.5",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
     "express": "^4.19.2"
   }
 }

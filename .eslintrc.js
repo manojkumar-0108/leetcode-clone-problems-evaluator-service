@@ -5,7 +5,7 @@ module.exports = {
         'prettier',
         'eslint:recommended'
     ],
-    plugins: ['@typescript-eslint'],
+    plugins: ['@typescript-eslint','simple-import-sort'],
     parserOptions: {
         ecmaVersion: 2022,
         sourceType: 'module',
@@ -24,6 +24,8 @@ module.exports = {
         'no-multiple-empty-lines': 'error',
         'prefer-const': 'warn',
         'no-console': 'warn',
-        'no-unused-vars':['error']
+        'no-unused-vars':['error'],
+        'simple-import-sort/imports':'error',
+        'simple-import-sort/exports':'error',
     },
 };
