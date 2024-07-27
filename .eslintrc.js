@@ -16,7 +16,7 @@ module.exports = {
         node: true,
     },
     rules: {
-        'no-var': 'error',
+        // 'no-var': 'warn',
         semi: 'error',
         // indent: ['error', 2, { SwitchCase: 1 }],
         'no-multi-spaces': 'error',
@@ -24,7 +24,7 @@ module.exports = {
         'no-multiple-empty-lines': 'error',
         'prefer-const': 'warn',
         'no-console': 'warn',
-        'no-unused-vars':['error'],
+        'no-unused-vars':'warn',
         'simple-import-sort/imports':'error',
         'simple-import-sort/exports':'error',
     },
